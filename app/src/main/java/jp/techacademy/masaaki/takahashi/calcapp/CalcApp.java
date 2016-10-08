@@ -66,6 +66,7 @@ public class CalcApp extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intent);
             }
 
+        
             if (v.getId()==R.id.button02) {
                 double a = Double.valueOf(mEditText01.getText().toString());
                 double b = Double.valueOf(mEditText02.getText().toString());
